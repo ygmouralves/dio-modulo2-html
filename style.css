@@ -1,0 +1,100 @@
+html, body {
+    margin: 0;
+    font: 400 15px / 24px 'Raleway';
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-size: 15px;
+    line-height: 24px;
+    font-family: Raleway;
+    -webkit-text-size-adjust: 100%;
+    color: #515151;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    background-color: aquamarine;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 20%;
+    background-color: white;
+    padding: 10px 20px 0px;
+    font-family: 'Raleway';
+    font-size: 14px;
+    text-transform: uppercase;
+
+}
+
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.footer {
+    background-color: rgb(5, 108, 108);
+    color: white;
+    min-height: 150px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: normal;
+}
+
+table, th, td {
+    border:1px solid black;
+  }
+
+.box {
+        border: 1px solid;
+        box-shadow: 5px 10px;
+}
+
+.vertical-menu {
+    width: 200px;
+  }
+  
+  .vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc;
+  }
+  
+  .vertical-menu a.active {
+    background-color: #ccc;
+    color: white;
+  }
+
+  h4 {
+    font-size: 20px;
+    line-height: 28px;
+}
